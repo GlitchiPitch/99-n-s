@@ -3,14 +3,14 @@ local Shared = require(ReplicatedStorage.Systems.GameSystem)
 
 ---@class GameSystemServer
 ---@field Shared GameSystemShared
-local GameSystemServer = {}
-GameSystemServer.__index = GameSystemServer
+local Server = {}
+Server.__index = Server
 
 ---@return GameSystemServer
-function GameSystemServer.new()
-    local self = setmetatable({}, GameSystemServer)
+function Server.new()
+    local self = setmetatable({}, Server)
     self.Shared = Shared.new()
     return self
 end
 
-return GameSystemServer
+return Server

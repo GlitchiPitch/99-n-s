@@ -31,6 +31,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.1.2] - 2025-12-07
+
+### Changed
+- **System Refactoring**: Unified naming convention in Shared modules across all systems (GameSystem, LobbySystem, ShopSystem)
+- **ShopSystem Architecture**: Added Presentation layer with UI components structure
+- **Code Consistency**: Standardized class and variable naming patterns
+
+### Added
+- **ShopSystem Presentation**: Implemented Presentation/UI/ShopUI architecture foundation
+- **ShopUI Component**: Added basic ShopUI class and model structure
+
+---
+
 ## Version Planning
 
 ### [0.1.1] - Next (Current Development)

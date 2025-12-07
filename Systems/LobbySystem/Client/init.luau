@@ -3,14 +3,14 @@ local Shared = require(ReplicatedStorage.Systems.LobbySystem)
 
 ---@class LobbySystemClient
 ---@field Shared LobbySystemShared
-local LobbySystemClient = {}
-LobbySystemClient.__index = LobbySystemClient
+local Client = {}
+Client.__index = Client
 
 ---@return LobbySystemClient
-function LobbySystemClient.new()
-    local self = setmetatable({}, LobbySystemClient)
+function Client.new()
+    local self = setmetatable({}, Client)
     self.Shared = Shared.new()
     return self
 end
 
-return LobbySystemClient
+return Client

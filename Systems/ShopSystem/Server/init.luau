@@ -3,13 +3,13 @@ local Shared = require(ReplicatedStorage.Systems.ShopSystem)
 
 ---@class ShopSystemServer
 ---@field Shared ShopSystemShared
-local ShopSystemServer = {}
-ShopSystemServer.__index = ShopSystemServer
+local Server = {}
+Server.__index = Server
 
-function ShopSystemServer.new()
-    local self = setmetatable({}, ShopSystemServer)
+function Server.new()
+    local self = setmetatable({}, Server)
     self.Shared = Shared.new()
     return self
 end
 
-return ShopSystemServer
+return Server

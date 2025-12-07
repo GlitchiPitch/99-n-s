@@ -1,10 +1,10 @@
 ---@class ShopSystemShared
-local ShopSystemShared = {}
-ShopSystemShared.__index = ShopSystemShared
+local Shared = {}
+Shared.__index = Shared
 
-function ShopSystemShared.new()
-    local self = setmetatable({}, ShopSystemShared)
+function Shared.new()
+    local self = setmetatable({}, Shared)
     return self
 end
 
-return ShopSystemShared
+return Shared

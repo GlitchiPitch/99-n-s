@@ -1,11 +1,11 @@
 ---@class LobbySystemShared
-local LobbySystemShared = {}
-LobbySystemShared.__index = LobbySystemShared
+local Shared = {}
+Shared.__index = Shared
 
 ---@return LobbySystemShared
-function LobbySystemShared.new()
-    local self = setmetatable({}, LobbySystemShared)
+function Shared.new()
+    local self = setmetatable({}, Shared)
     return self
 end
 
-return LobbySystemShared
+return Shared
