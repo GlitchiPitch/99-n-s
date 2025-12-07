@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "name": "99-n-s",
+  "description": "Roblox game built with Clean Architecture",
+  "major": 0,
+  "minor": 1,
+  "patch": 0,
+  "build": null,
+  "prerelease": null,
+  "metadata": {
+    "lastUpdated": "2025-01-07",
+    "changes": "Initial infrastructure setup with DI container and services"
+  }
+}
