@@ -5,17 +5,53 @@
     "ReplicatedStorage": {
       "Shared": {
         "$path": "Shared"
+      },
+      "Systems": {
+        "$className": "Configuration",
+        "GameSystem": {
+          "$path": "Systems/GameSystem/Shared"
+        },
+        "LobbySystem": {
+          "$path": "Systems/LobbySystem/Shared"
+        },
+        "ShopSystem": {
+          "$path": "Systems/ShopSystem/Shared"
+        }
       }
     },
     "ServerScriptService": {
       "Server": {
         "$path": "Server"
+      },
+      "Systems": {
+        "$className": "Configuration",
+        "GameSystem": {
+          "$path": "Systems/GameSystem/Server"
+        },
+        "LobbySystem": {
+          "$path": "Systems/LobbySystem/Server"
+        },
+        "ShopSystem": {
+          "$path": "Systems/ShopSystem/Server"
+        }
       }
     },
     "StarterPlayer": {
       "StarterPlayerScripts": {
         "Client": {
           "$path": "Client"
+        },
+        "Systems": {
+          "$className": "Configuration",
+          "GameSystem": {
+            "$path": "Systems/GameSystem/Client"
+          },
+          "LobbySystem": {
+            "$path": "Systems/LobbySystem/Client"
+          },
+          "ShopSystem": {
+            "$path": "Systems/ShopSystem/Client"
+          }
         }
       }
     }
